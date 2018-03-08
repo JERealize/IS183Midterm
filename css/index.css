@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+  }
+
+  body {
+    height: calc(100% - 90px);
+  }
+
+.main-header,
+.main-footer {
+    background-color: #9BC1BC;
+    height: 50px;
+}
+
+.logo,
+.legal-text {
+    display: block;
+    padding: 10px 5px 10px 5px;
+    height: 30px;
+    padding-top: 15px;
+}
+.legal-text {
+      text-align:center;
+      color: #F4F1BB;
+  }
+
+  .main-container {
+    
+    width:80%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    margin: 10px auto;
+    overflow:auto;
+}
+
+.left-sidebar {
+    float:left;
+    width:180px;
+    height:100%;
+
+}
+
+.left-sidebar ul {
+    text-align: center;
+    display: block;
+}
+.left-sidebar li {
+    display: block;
+    width:100%;
+    border-bottom:1px solid #FFF;
+}
+.left-sidebar ul li a {
+    text-decoration: none;
+    color: #F4F1BB;
+    padding:10px;
+    display: block;
+    font-weight: bold;
+    transition-duration: 0.5s
+}
+
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.header-inner {
+    width:80%;
+    height:80px;
+    margin:0 auto;
+  }
+
+  .app-logo {
+    float:left;
+    display: block;
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    background-image: url(../img/sm_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .home-container {
+    height: 140px;
+    background-color:#CCC;  
+}
+
+.h1-heading {
+    color:#F4F1BB;
+}
+
+.gallery {
+    display: block;
+    padding:15px;
+    height: calc(100% - 30px);
+    float: left;
+    width:calc(100% - 491px);
+}
+.gallery ul.row {
+    margin-top:25px;
+    margin-bottom:25px;
+    list-style-type:none;
+    text-align:center;
+    width:100%;
+}
+.gallery ul.row li {
+    margin-right:15px;
+    display: inline-block;
+}
+.gallery ul.row li > img {
+    height:200px;
+    width:140px;
+}
